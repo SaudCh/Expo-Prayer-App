@@ -1,0 +1,302 @@
+export const cities = [{
+    Name: 'Lahore',
+    key: "1"
+}, {
+    Name: 'Karachi',
+    key: "2"
+},
+{
+    Name: 'Islamabad',
+    key: "3"
+},
+{
+    Name: 'Faisalabad',
+    key: "4"
+}, {
+    Name: 'Rawalpindi',
+    key: "5"
+}, {
+    Name: 'Gujranwala',
+    key: "6"
+}, {
+    Name: 'Peshawar',
+    key: "7"
+}, {
+    Name: 'Multan',
+    key: "8"
+}, {
+    Name: 'Hyderabad',
+    key: "9"
+}, {
+    Name: 'Quetta',
+    key: "10"
+}, {
+    Name: 'Bahawalpur',
+    key: "11"
+}, {
+    Name: 'Sargodha',
+    key: "12"
+}, {
+    Name: 'Sailkot',
+    key: "13"
+}, {
+    Name: 'Kamoke',
+    key: '14'
+}, {
+    Name: 'Sukkur',
+    key: "15"
+}, {
+    Name: 'Larkana',
+    key: "16"
+}, {
+    Name: 'Shiekhupura',
+    key: "17"
+}, {
+    Name: 'Rahim Yar Khan',
+    key: "18"
+}, {
+    Name: 'Jhang',
+    key: "19"
+}, {
+    Name: 'Dera Ghazi Khan',
+    key: "20"
+},
+{
+    Name: 'Gujrat',
+    key: "21"
+}, {
+    Name: 'Sahiwal',
+    key: "22"
+}, {
+    Name: 'Wah Cantonment',
+    key: "23"
+}, {
+    Name: 'Mardan',
+    key: "24"
+}, {
+    Name: 'Kasur',
+    key: "25"
+}, {
+    Name: 'Okara',
+    key: "26"
+}, {
+    Name: 'Mingora',
+    key: "27"
+}, {
+    Name: 'Nawabshah',
+    key: "28"
+}, {
+    Name: 'Chiniot',
+    key: "29"
+}, {
+    Name: 'Kotri',
+    key: "30"
+}, {
+    Name: 'Hafizabad',
+    key: "31"
+}, {
+    Name: 'Sadiqabad',
+    key: "32"
+}, {
+    Name: 'Mirpur Khas',
+    key: "33"
+}, {
+    Name: 'Burewala',
+    key: "34"
+}, {
+    Name: 'Kohat',
+    key: "35"
+}, {
+    Name: 'Khanewal',
+    key: "36"
+}, {
+    Name: 'Dera Ismail Khan',
+    key: "37"
+}, {
+    Name: 'Turbat',
+    key: "38"
+}, {
+    Name: 'Muzaffargarh',
+    key: "39"
+}, {
+    Name: 'Abbotabad',
+    key: "40"
+}, {
+    Name: 'Mandi Bahuddin',
+    key: "41"
+}, {
+    Name: 'Shikarpur',
+    key: "42"
+}, {
+    Name: 'Jacobabad',
+    key: "43"
+}, {
+    Name: 'Jhelum',
+    key: "44"
+}, {
+    Name: 'Khanpur',
+    key: "45"
+}, {
+    Name: 'Khairpur',
+    key: "46"
+}, {
+    Name: 'Khuzdar',
+    key: "47"
+}, {
+    Name: 'Pakpattan',
+    key: "48"
+}, {
+    Name: 'Hub',
+    key: "49"
+}, {
+    Name: 'Daska',
+    key: "50"
+}, {
+    Name: 'Gojra',
+    key: "51"
+}, {
+    Name: 'Dadu',
+    key: "52"
+}, {
+    Name: 'Muridke',
+    key: "53"
+}, {
+    Name: 'Bahawalnagar',
+    key: "54"
+}, {
+    Name: 'Samundri',
+    key: "55"
+}, {
+    Name: 'Tando Allahyar',
+    key: "56"
+}, {
+    Name: 'Tando Adam',
+    key: "57"
+}, {
+    Name: 'Jaranwala',
+    key: "58"
+}, {
+    Name: 'Chishtian',
+    key: "59"
+}, {
+    Name: 'Muzaffarabad',
+    key: "60"
+}, {
+    Name: 'Attock',
+    key: "61"
+}, {
+    Name: 'Vehari',
+    key: "62"
+}, {
+    Name: 'Kot Abdul Malik',
+    key: "63"
+}, {
+    Name: 'Ferozwala',
+    key: "64"
+}, {
+    Name: 'Chakwal',
+    key: "65"
+}, {
+    Name: 'Gujranwala',
+    key: "66"
+}, {
+    Name: 'Kamalia',
+    key: "67"
+}, {
+    Name: 'Umerkot',
+    key: "68"
+}, {
+    Name: 'Ahmedpur East',
+    key: "69"
+}, {
+    Name: 'Kot Addu',
+    key: "70"
+}, {
+    Name: 'Wazirabad',
+    key: "71"
+}, {
+    Name: 'Mansehra',
+    key: "72"
+}, {
+    Name: 'Layyah',
+    key: "73"
+}, {
+    Name: 'Mirpur',
+    key: "74"
+}, {
+    Name: 'Swabi',
+    key: "75"
+}, {
+    Name: 'Chaman',
+    key: "76"
+}, {
+    Name: 'Taxila',
+    key: "77"
+}, {
+    Name: 'Nowshera',
+    key: "78"
+}, {
+    Name: 'Khushab',
+    key: "79"
+}, {
+    Name: 'Shahdadkot',
+    key: "80"
+}, {
+    Name: 'Mianwali',
+    key: "81"
+}, {
+    Name: 'Kabal',
+    key: "82"
+}, {
+    Name: 'Lodran',
+    key: "83"
+}, {
+    Name: 'Hasilpur',
+    key: "84"
+}, {
+    Name: 'Charsadda',
+    key: "85"
+}, {
+    Name: 'Bhakkar',
+    key: "86"
+}, {
+    Name: 'Badin',
+    key: "87"
+}, {
+    Name: 'Arif Wala',
+    key: "88"
+}, {
+    Name: 'Ghotki',
+    key: "89"
+}, {
+    Name: 'Sambrial',
+    key: "90"
+}, {
+    Name: 'Jatoi',
+    key: "91"
+}, {
+    Name: 'Haroonabad',
+    key: "92"
+}, {
+    Name: 'Daharki',
+    key: "93"
+}, {
+    Name: 'Narowal',
+    key: "94"
+}, {
+    Name: 'Tando Muhammad Khan',
+    key: "95"
+}, {
+    Name: 'Khamber Ali Khan',
+    key: "96"
+}, {
+    Name: 'Mirpur Mathelo',
+    key: "97"
+}, {
+    Name: 'Kandhkot',
+    key: "98"
+}, {
+    Name: 'Bhalwal',
+    key: "99"
+},
+]
